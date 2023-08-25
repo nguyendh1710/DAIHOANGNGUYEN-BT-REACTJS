@@ -11,3 +11,57 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+.glasseshop{
+
+
+        background-image: url("./../public/img/background.jpg");
+       
+        height: 100vh;
+        width: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+}
+.title{
+
+        opacity: 30%;
+        background-color: darkgrey;
+        color: black;
+        
+
+
+}
+.glasseslist{
+            display: flex;
+            flex-direction: row;
+            margin-top: 20vh;
+            margin-left: 25vw;
+            width: 55vw;
+
+
+}
+.model{
+  margin-left: 35vw;
+  
+  margin-top: 23vh;
+
+  position: relative;
+
+}
+
+.model img{
+ 
+  margin-right: 35vh; 
+   
+
+}
+.model .try{
+ 
+  width: 85px;
+  height: 35px;
+  position: absolute;
+  top:55px;
+  left: 45px;
+
+}
